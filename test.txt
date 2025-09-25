@@ -1,2 +1,28 @@
 git remote add origin https://github.com/Junaid-Altaf/test_with_mukarram.git
 
+git status
+
+
+git push -u origin mukarram_test_branch_name
+
+
+git remote add origin https://github.com/Junaid-Altaf/test_with_mukarram.git
+
+
+git remote set-url origin https://github.com/Junaid-Altaf/data_analysis_with_python.git
+
+======================
+Add All Files
+======================
+git add
+
+
+
+cd path\to\your\project
+
+git init // output: Initialized empty Git repository in D:/Machine Learning/.git/
+git remote add origin https://github.com/Junaid-Altaf/data_analysis_with_python.git
+git add .
+git commit -m "Initial commit for data_analysis_with_python"
+git branch -M main
+git push -u origin main
